@@ -1,0 +1,13 @@
+{% if comments %}
+   {% for comment in all_comments %}
+   <div class = "card-panel">
+       <p>{{ comment.content}}</p>
+       <p class = "center-align black-text"> By {{ comment.user_id.username }}</p>
+   </div>
+   {% endfor %}
+   {% else %}
+   <div class = "card-panel">
+       <p>No commments</p>
+   </div>
+   {% endif %}
+   <br>

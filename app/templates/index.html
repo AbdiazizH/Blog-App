@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="valign-wrapper ba-jumbotron">
+    <div class="container center-align">
+        <h2>Blog App</h2>
+    </div>
+</div>
+<div class="container">
+    <h3 class="center">Latest Blogs</h3>
+    <hr style="border-color: black;">
+    <br>
+    <p class="center" style="font-size: 45px;">{{quote.quote}}</p>
+    <p class="center" style="font-size: 20px; color: coral;"><strong>Author: </strong>{{quote.author}}</p>
+    <div class="row">
+      
+    </div>
+    <hr style="border-color: black;">
+</div>
+<style>
+   body {
+    background-color: #e3f2fd;
+    color: black;
+   } 
+</style>
+{% endblock %}
