@@ -42,7 +42,7 @@ class DevConfig(Config):
     Development configuration for child class
     '''
     class DevConfig(Config):
-        SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:123456#$@localhost/blogs'
+        # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:123456#$@localhost/blogs'
     DEBUG = True
 
     DEBUG = True
